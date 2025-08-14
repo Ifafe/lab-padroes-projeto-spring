@@ -6,13 +6,22 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
+/**
+ * Entidade Cliente.
+ * Representa um cliente do sistema.
+ *
+ * @author Ifafe
+ * @since 2025
+ */
 @Entity
 public class Cliente {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
+
 	private String nome;
+
 	@ManyToOne
 	private Endereco endereco;
 
@@ -40,4 +49,12 @@ public class Cliente {
 		this.endereco = endereco;
 	}
 
+	@Override
+	public String toString() {
+		return "Cliente{" +
+				"id=" + id +
+				", nome='" + nome + '\'' +
+				", endereco=" + endereco +
+				'}';
+	}
 }

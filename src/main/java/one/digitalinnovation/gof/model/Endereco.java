@@ -12,6 +12,13 @@ import javax.persistence.Id;
  * 
  * @author falvojr
  */
+/**
+ * Entidade Endereco.
+ * Representa um endereço do cliente.
+ *
+ * @author Ifafe
+ * @since 2025
+ */
 @Entity
 public class Endereco {
 
@@ -107,4 +114,14 @@ public class Endereco {
 		this.siafi = siafi;
 	}
 
+	@Override
+	public String toString() {
+		return "Endereco{" +
+				"cep='" + cep + '\'' +
+				", logradouro='" + logradouro + '\'' +
+				", bairro='" + bairro + '\'' +
+				", localidade='" + localidade + '\'' +
+				", uf='" + uf + '\'' +
+				'}';
+	}
 }
