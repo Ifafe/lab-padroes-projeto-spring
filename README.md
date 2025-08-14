@@ -4,10 +4,6 @@ Este projeto é uma API REST desenvolvida com Spring Boot para demonstrar, na pr
 
 ---
 
-## Referência ao Projeto Original
-
-Este repositório é um fork melhorado do projeto criado por [falvojr](https://github.com/falvojr/lab-padroes-projeto-spring), originalmente desenvolvido para o Lab "Explorando Padrões de Projetos na Prática com Java". Todas as melhorias e evoluções foram feitas sobre essa base, mantendo os créditos ao autor original.
-
 - Implementei DTOs e validação automática dos dados de entrada, garantindo que apenas informações corretas sejam processadas.
 - Adicionei tratamento global de erros, padronizando as respostas e facilitando o consumo da API por outros sistemas.
 - Documentei as principais classes e métodos com JavaDoc, tornando o entendimento do código mais fácil para outros desenvolvedores.
@@ -15,3 +11,8 @@ Este repositório é um fork melhorado do projeto criado por [falvojr](https://g
 - Organizei melhor os pacotes e separei responsabilidades, seguindo boas práticas de arquitetura.
 
 Essas funcionalidades refletem meu compromisso com qualidade, escalabilidade e facilidade de manutenção. O projeto está pronto para servir como base para aplicações reais e para estudos sobre boas práticas com Spring Boot.
+
+
+### Referência ao Projeto Original
+
+Este repositório é um fork melhorado do projeto criado por [falvojr](https://github.com/falvojr/lab-padroes-projeto-spring), originalmente desenvolvido para o Lab "Explorando Padrões de Projetos na Prática com Java". Todas as melhorias e evoluções foram feitas sobre essa base, mantendo os créditos ao autor original.
